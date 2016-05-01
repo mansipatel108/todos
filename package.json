@@ -1,5 +1,5 @@
 {
-  "name": "comp2068-ngmongodemo",
+  "name": "todos",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,10 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GeorgianCollege/COMP2068-ngMongoDemo"
+    "url": "https://github.com/mansipatel108/todos"
   },
-  "author": "Tom Tsiliopoulos",
-  "description": "An AngularJS MongoDB Demo Project for COMP2068 @ Georgian College",
+  "author": "Mansi Patel",
+  "description": "An AngularJS MongoDB Todos project ",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",

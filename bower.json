@@ -1,9 +1,9 @@
 {
-  "name": "comp2068-ngmongodemo",
-  "description": "An AngularjS MongoDB Demo Project for COMP2068 @ Georgian College",
+  "name": "todos",
+  "description": "An AngularJS MongoDB Todos project ",
   "main": "",
   "authors": [
-    "Tom Tsiliopoulos"
+    "Mansi Patel"
   ],
   "license": "MIT",
   "moduleType": [],
