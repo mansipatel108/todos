@@ -1,0 +1,15 @@
+/* custom style sheet */
+
+
+.completed-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#searchTodo, #newTodo {
+    display: block;
+    width: 30%;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}

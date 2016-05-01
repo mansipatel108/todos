@@ -1,0 +1,27 @@
+{
+  "name": "comp2068-ngmongodemo",
+  "description": "An AngularjS MongoDB Demo Project for COMP2068 @ Georgian College",
+  "main": "",
+  "authors": [
+    "Tom Tsiliopoulos"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "angular-resource": "^1.5.3"
+  }
+}
