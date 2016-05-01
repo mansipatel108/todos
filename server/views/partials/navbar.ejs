@@ -15,15 +15,16 @@
       <ul class="nav navbar-nav navbar-right">
         <% if(title === "Home") { %>  
             <li class="active"><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
+        <!--    <li><a href="/products">Products</a></li>
+            <li><a href="/services">Services</a></li>  -->
             <li><a href="/articles">Articles</a></li>
             <% if(displayName) { %>
                 <li><a href="/users">Users</a></li>
                 <li><a href="/todoList">Todos</a></li>
             <% } %>
-            <li><a href="/about">About Us</a></li>
+        <!--    <li><a href="/about">About Us</a></li>  -->
             <li><a href="/contact">Contact Us</a></li>
+            <!--
         <% } else if(title == "Products") { %>
             <li><a href="/">Home</a></li>
             <li class="active"><a href="/products">Products</a></li>
@@ -45,41 +46,41 @@
                 <li><a href="/todoList">Todos</a></li>
             <% } %>
             <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>  -->
         <% } else if(title == "Articles") { %>
             <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
+        <!--    <li><a href="/products">Products</a></li>
+            <li><a href="/services">Services</a></li>  -->
             <li class="active"><a href="/articles">Articles</a></li>
             <% if(displayName) { %>
                 <li><a href="/users">Users</a></li>
                 <li><a href="/todoList">Todos</a></li>
             <% } %>
-            <li><a href="/about">About Us</a></li>
+      <!--      <li><a href="/about">About Us</a></li>  -->
             <li><a href="/contact">Contact Us</a></li>
         <% } else if(title == "Users") { %>
             <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
+        <!--    <li><a href="/products">Products</a></li>
+            <li><a href="/services">Services</a></li>   -->
             <li><a href="/articles">Articles</a></li>
             <% if(displayName) { %>
                 <li class="active"><a href="/users">Users</a></li>
                 <li><a href="/todoList">Todos</a></li>
             <% } %>
-            <li><a href="/about">About Us</a></li>
+      <!--      <li><a href="/about">About Us</a></li>  -->
             <li><a href="/contact">Contact Us</a></li>
         <% } else if(title == "Todos") { %>
             <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
+       <!--     <li><a href="/products">Products</a></li>
+            <li><a href="/services">Services</a></li>  -->
             <li><a href="/articles">Articles</a></li>
             <% if(displayName) { %>
                 <li><a href="/users">Users</a></li>
                 <li class="active"><a href="/todoList">Todos</a></li>
             <% } %>
-            <li><a href="/about">About Us</a></li>
+     <!--       <li><a href="/about">About Us</a></li>  -->
             <li><a href="/contact">Contact Us</a></li>
-        <% } else if(title == "About") { %>
+     <!--   <% } else if(title == "About") { %>
             <li><a href="/">Home</a></li>
             <li><a href="/products">Products</a></li>
             <li><a href="/services">Services</a></li>
@@ -90,16 +91,17 @@
             <% } %>
             <li class="active"><a href="/about">About Us</a></li>
             <li><a href="/contact">Contact Us</a></li>
+            -->
          <% } else if(title == "Contact") { %>
             <li><a href="/">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/articles">Articles</a></li>
+        <!--    <li><a href="/products">Products</a></li>
+          <li><a href="/services">Services</a></li>  -->
+            <li><a href="/articles">Articles</a></li>  
             <% if(displayName) { %>
                 <li><a href="/users">Users</a></li>
                 <li><a href="/todoList">Todos</a></li>
             <% } %>
-            <li><a href="/about">About Us</a></li>
+     <!--       <li><a href="/about">About Us</a></li>   -->
             <li class="active"><a href="/contact">Contact Us</a></li>
          <% } %>
          <% if(displayName) { %>

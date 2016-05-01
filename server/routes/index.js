@@ -20,24 +20,27 @@ router.get('/', function (req, res, next) {
         title: 'Home',
         displayName: req.user ? req.user.displayName : '' });
 });
-/* GET product page. */
-router.get('/products', function (req, res, next) {
+/* GET product page.
+router.get('/products', (req: express.Request, res: express.Response, next: any) => {
     res.render('index', {
         title: 'Products',
-        displayName: req.user ? req.user.displayName : '' });
+        displayName: req.user ? req.user.displayName : ''});
 });
-/* GET services page. */
-router.get('/services', function (req, res, next) {
+
+/* GET services page.
+router.get('/services', (req: express.Request, res: express.Response, next: any) => {
     res.render('index', {
         title: 'Services',
         displayName: req.user ? req.user.displayName : '' });
 });
-/* GET about page. */
-router.get('/about', function (req, res, next) {
+
+/* GET about page.
+router.get('/about', (req: express.Request, res: express.Response, next: any) => {
     res.render('index', {
         title: 'About',
         displayName: req.user ? req.user.displayName : '' });
 });
+*/
 /* GET contact page. */
 router.get('/contact', function (req, res, next) {
     req.flash('successmessage', 'Thank You. Your message has been sent.');

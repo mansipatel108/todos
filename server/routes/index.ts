@@ -23,27 +23,27 @@ router.get('/', (req: express.Request, res: express.Response, next: any) => {
         displayName: req.user ? req.user.displayName : '' });
 });
 
-/* GET product page. */
+/* GET product page. 
 router.get('/products', (req: express.Request, res: express.Response, next: any) => {
     res.render('index', { 
         title: 'Products',
         displayName: req.user ? req.user.displayName : ''});
 });
 
-/* GET services page. */
+/* GET services page. 
 router.get('/services', (req: express.Request, res: express.Response, next: any) => {
     res.render('index', { 
         title: 'Services',
         displayName: req.user ? req.user.displayName : '' });
 });
 
-/* GET about page. */
+/* GET about page. 
 router.get('/about', (req: express.Request, res: express.Response, next: any) => {
     res.render('index', { 
         title: 'About',
         displayName: req.user ? req.user.displayName : '' });
 });
-
+*/
 /* GET contact page. */
 router.get('/contact', (req: express.Request, res: express.Response, next: any) => {
     req.flash('successmessage', 'Thank You. Your message has been sent.');
