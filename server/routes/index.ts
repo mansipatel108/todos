@@ -1,5 +1,5 @@
 import express = require('express');
-var sendgrid = require('sendgrid')('ACCOUNT_NAME', 'PASSWORD');
+var sendgrid = require('sendgrid')('azure_84c024842e756033521773acc6801bc1@azure.com', 'georgian2016');
 import passport = require('passport');
 var router = express.Router();
 
@@ -57,7 +57,7 @@ router.get('/contact', (req: express.Request, res: express.Response, next: any) 
 /* Email processing */
 router.post('/contact', (req: express.Request, res: express.Response, next: any) => {
     sendgrid.send({
-        to: 'tsiliopoulos@hotmail.com',
+        to: 'mpatel.y@gmail.com.com',
         from: req.body.email,
         subject: 'Contact Form Submission',
         text: "This message has been sent from the contact form at [MongoDB Demo]\r\n\r\n" +
