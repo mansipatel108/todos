@@ -1,38 +1,32 @@
 <% include partials/header.ejs %>
 <% include partials/navbar.ejs %>
         <main class="container">
-            <% if (messages) { %>
-                <div class="alert alert-success alert-dismissable" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <%= messages %>
-                </div>
-                <% } %>
-                    <div class="row">
-                         <div class="col-md-offset-4 col-md-5">
-                            <h1><%= title %> Page</h1>
-                            <form method="post">
-                                <fieldset class="form-group">
-                                    <label for="name">Name:</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name:" required>
-                                </fieldset>
-                                <fieldset class="form-group">
-                                    <label for="email">Email:</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="yourname@youremail.com" required>
-                                </fieldset>
-                                <fieldset class="form-group">
-                                    <label for="phone">Phone:</label>
-                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your contact number" required>
-                                </fieldset>
-                                <fieldset class="form-group">
-                                    <label for="message">Message:</label>
-                                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter Your Message Here..." required></textarea>
-                                </fieldset>
-                                <fieldset class="form-group text-right">
-                                    <button type="submit" class="btn btn-primary btn-lg">Send</button>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
+           <area>
+       
+ <div class="col-xs-12 col-sm-6 col-md-8">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.2081773469854!2d-79.67473008501943!3d44.40837371128842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa36cd564f6b7%3A0xc8d3c21ab5d76afb!2s32+Sylvia+St%2C+Barrie%2C+ON+L4M+5J4!5e0!3m2!1sen!2sca!4v1462133565922" width="950" height="510" frameborder="5" style="border:5" allowfullscreen"></iframe>
+ </div>
+    
+ <section id="class">
+ <div align="left" class="col-xs-6 col-md-4">
+  <br>
+  <br>
+  <br>
+<span class="fa fa-envelope"></span><a href="mailto:mpatel.y@gmail.com">mpatel.y@gmail.com</a><br>
+</div>
+</section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
         </main>
+        
+        
 <% include partials/bootstrap.ejs %>
 <% include partials/footer.ejs %>
